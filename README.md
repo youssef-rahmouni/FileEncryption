@@ -4,7 +4,7 @@
 Overview
 --------
 
-This is a small Python project created to learn practical cryptography by building a real file encryption and decryption tool using the cryptography library. (`cryptography` docs: https://cryptography.io/) [web:22]
+This is a small Python project created to learn practical cryptography by building a real file encryption and decryption tool using the cryptography library. (`cryptography` docs: https://cryptography.io/)
 The goal is not to replace existing tools, but to understand what happens under the hood and feel comfortable using modern crypto primitives.
 
 What the script does
@@ -14,7 +14,7 @@ Encrypts a file using symmetric encryption
 Decrypts the file back to its original form
 Supports:
 A random generated key stored in a file
-A password-based key derived using PBKDF2 (`PBKDF2HMAC` docs: https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/) [web:16]
+A password-based key derived using PBKDF2 (`PBKDF2HMAC` docs: https://cryptography.io/en/latest/hazmat/primitives/key-derivation-functions/)
 
 Cryptography concepts learned
 -----------------------------
