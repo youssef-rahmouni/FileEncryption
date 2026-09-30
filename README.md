@@ -38,7 +38,7 @@ Integrity is verified during decryption to prevent tampering
 Relation to OpenSSL
 -------------------
 
-This functionality already exists in tools like OpenSSL (OpenSSL `enc` docs: https://leancrew.com/all-this/man/man1/openssl-enc.html), for example: [web:21]
+This functionality already exists in tools like OpenSSL (OpenSSL `enc` docs: https://leancrew.com/all-this/man/man1/openssl-enc.html), for example:
 ```
 openssl enc -aes-256-cbc -in file -out file.enc
 ```
